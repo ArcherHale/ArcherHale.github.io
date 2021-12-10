@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- This website was created by: Archer Hale -->
+<html lang="en">
+    <head>
+        <title>Floor Cleaning Services</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon-fcs.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    </head>
+    <body>
+
+        <div id="container">
+
+            <!-- Mobile navigation -->
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="products.html">Products</a>
+                    <a href="prepare.html">How to Prepare</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>
+
+        <!-- Use header area for the website name/logo -->
+        <header id="fcs-logo">
+            <a href="index.html"><img src="images/floor-cleaning-logo.png" alt="Floor Cleaning Services logo"></a>
+        </header>
+
+        <!-- Tablet/Desktop Navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="prepare.html">How to Prepare</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Use main area for the webpage's main content -->
+        <main>
+
+            <div id="contact">
+
+                <h2>Got some dirty floors? Contact us today!</h2><h4 class="mobile tel-link">Call us:<a href="tel:8145551234">(814) 555-1234</a></h4>
+                <h4 class="tablet-desktop tel-num">(814) 555-1234</h4>
+                <h4>Email us: <a href="mailto:floorcleaning@services.net" class="contact-email-link">floorcleaning@services.net</a></h4>
+                <h4>1200 Cornell Dr, Longmont, CO 80503</h4>
+
+                <iframe class ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6096.811772325612!2d-105.14842580298131!3d40.17777976451417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bfbea7a26ca6b%3A0x11f4c60863987b6d!2s1200%20Cornell%20Dr%2C%20Longmont%2C%20CO%2080503!5e0!3m2!1sen!2sus!4v1638924828270!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <div class="mobile">
+
+                <h3>It's best to contact us:</h3>
+                <p>Monday, Wednesday, Friday: 10am &amp; 10pm</p>
+                <p>Tuesday, Thursday: 10am &amp; 6pm</p>
+                <p>Saturday: 10am &amp; 2pm</p>
+                <p>Sunday: Day Off</p>
+
+            </div>
+
+            <div class="tablet-desktop">
+
+                <table><!-- Start of Table-->
+                    <caption>Best Times to Call Us</caption>
+                    <tr><!-- Row 1 -->
+                        <th>Days</th>
+                        <th>Times</th>
+                    </tr>
+                    <tr><!-- Row 2 -->
+                        <td>Monday, Wednesday, Friday</td>
+                        <td>10:00am, 10:00pm</td>
+                    </tr>
+                    <tr><!-- Row 3 -->
+                        <td>Tuesday, Thursday</td>
+                        <td>10:00am, 6:00pm</td>
+                    </tr>
+                    <tr><!-- Row 4 -->
+                        <td>Saturday</td>
+                        <td>10:00am, 2:00pm</td>
+                    </tr>
+                    <tr><!-- Row 5 -->
+                        <td>Sunday</td>
+                        <td>Day Off</td>
+                    </tr>
+                </table><!-- End Table -->
+
+            </div>
+
+            <div id="form">
+
+                <h2>Complete the form below to get a free estimate!</h2>
+
+                <form class="form-grid"> <!-- STart of Form-->
+
+                    <fieldset>
+                        <legend>Client Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName" required>
+
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <p>I would like more information about:</p>
+
+                        <label for="freeest"><input type="checkbox" name="interest" id="freeest" value="Free Estimate">A free estimate</label>
+
+                        <label for="othserv"><input type="checkbox" name="interest" id="othserv" value="Other Services">Other services</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Question</legend>
+                        <label for="questions">Questions?</label>
+                        <textarea id="questions" name="questions" rows="10" cols="35"></textarea>
+                    </fieldset>
+
+                    <input type="submit" id="submit" value="Submit" class="btn">
+
+                </form>
+
+        </main>
+
+        <!-- Use footer area for webpage's footer content -->
+        <footer>
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p><a href="mailto:floorcleaning@services.net">floorcleaning@services.net</a></p>
+        </footer>
+
+        </div>
+
+        <script scr="scripts/script.js"></script>
+
+    </body>
+</html>
